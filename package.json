@@ -11,7 +11,8 @@
     "test 4": "jest 4.bind/myBind.test.js",
     "test 5": "jest 5.new/myNew.test.js",
     "test 6": "jest 6.extend/myExtend.test.js",
-    "test 7": "jest 7.debounce/debounce.test.js"
+    "test 7": "jest 7.debounce/debounce.test.js",
+    "test 9": "jest 9.eventBus/eventBus.test.js"
   },
   "keywords": [],
   "author": "",
