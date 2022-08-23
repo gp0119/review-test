@@ -6,7 +6,12 @@
   "scripts": {
     "test": "jest",
     "test 1": "jest 1.instanceof/myInstanceof.test.js",
-    "test 2": "jest 2.call/myCall.test.js"
+    "test 2": "jest 2.call/myCall.test.js",
+    "test 3": "jest 3.apply/myApply.test.js",
+    "test 4": "jest 4.bind/myBind.test.js",
+    "test 5": "jest 5.new/myNew.test.js",
+    "test 6": "jest 6.extend/myExtend.test.js",
+    "test 7": "jest 7.debounce/debounce.test.js"
   },
   "keywords": [],
   "author": "",

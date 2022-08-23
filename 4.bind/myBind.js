@@ -3,11 +3,12 @@ export default function myBind(context, ...args) {
     throw new Error('type error')
   }
   const fn = this
-  return function newBound(...rest) {
-    if (fn instanceof newBound) {
-      return new newBound(...args, ...rest)
+  function newFn(...rest) {
+    if (this instanceof newFn) {
+      return new fn(...args, ...rest)
     } else {
-      return fn.call(this, ...args, ...rest)
+      return fn.call(context, ...args, ...rest)
     }
   }
+  return newFn
 }
